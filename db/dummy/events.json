@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "name": " Solana Web3 Coding Camp",
+    "companyId": "20",
+    "maxVisitor": 100,
+    "minVisitor": 20,
+    "currentVisitor": 0,
+    "bannerUrl": "http://www.akitahq.com/2008/header_banner.jpg",
+    "description": "Bạn là lập trình viên và đang tìm kiếm cơ hội bứt phá? Đến ngay với Web3 Coding Camp để nắm bắt cơ hội: ️🎯 Học hỏi và lập trình trên nền tảng Solana bằng ngôn ngữ RUST (sẽ được training cho các bạn mới làm quen) thông qua chuỗi workshop, địa điểm code tập trung kết hợp livestream cho các bạn không tham gia offline được và các phiên thảo luận. ️🎯 Nhận được sự cố vấn chuyên môn, định hướng và phát triển ý tưởng từ các chuyên gia đầu ngành mọi lúc, kết nối, học hỏi cùng các lập trình viên tài năng, cùng tạo nên những sản phẩm Web3 thực tiễn.  ️🎯 Có cơ hội nhận được những phần quà độc quyền và tiền thưởng hấp dẫn từ nhà tài trợ và ban tổ chức khi tham gia cộng đồng Solana cùng với những lập trình viên hàng đầu, tạo bước đệm đáng kể trên con đường sự nghiệp lĩnh vực Web3.",
+    "address": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "createdById": "1"
+  }
+]
