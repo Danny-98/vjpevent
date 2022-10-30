@@ -5,7 +5,7 @@ const getRegisterMailTemplate = require("../utils/mail/getRegisterMailTemplate")
 const sendMail = require("../utils/mail/sendMail");
 const router = require("./index")
 
-router.get("registration-event/:userId", function (req, res, next) {
+router.get("/registration-event/:userId", function (req, res, next) {
   const { userId } = req.params;
   const events = registerEventController.getEventByUserId(userId);
   res.json({
@@ -14,7 +14,7 @@ router.get("registration-event/:userId", function (req, res, next) {
   });
 });
 
-router.put("registration-event/update-status", async function (req, res, next) {
+router.put("/registration-event/update-status", async function (req, res, next) {
   const { userId, eventId } = req.body;
   await update(eventId, userId);
   res.json({
@@ -22,7 +22,7 @@ router.put("registration-event/update-status", async function (req, res, next) {
   });
 });
 
-router.post("registration-event/", async function (req, res, next) {
+router.post("/registration-event", async function (req, res, next) {
   const {
     userName,
     eventId,
