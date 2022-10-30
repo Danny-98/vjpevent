@@ -1,8 +1,6 @@
-const express = require("express");
 const { sigin } = require("../controllers/authentication");
 const { users } = require("../db/dummy");
-const router = express.Router();
-
+const router = require("./index")
 /* GET users listing. */
 router.get("/users", function (req, res, next) {
   res.json({ users });

@@ -1,10 +1,9 @@
-const express = require("express");
 const { update } = require("../controllers/registedEvent");
 const registerEventController = require("../controllers/registedEvent");
 const userController = require("../controllers/user");
 const getRegisterMailTemplate = require("../utils/mail/getRegisterMailTemplate");
 const sendMail = require("../utils/mail/sendMail");
-const router = express.Router();
+const router = require("./index")
 
 router.get("/:userId", function (req, res, next) {
   const { userId } = req.params;

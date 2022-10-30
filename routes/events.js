@@ -1,7 +1,5 @@
-const express = require("express");
 const { events } = require("../db/dummy");
-const router = express.Router();
-
+const router = require("./index")
 router.get("/events", function (req, res, next) {
   res.json({ events });
 });
