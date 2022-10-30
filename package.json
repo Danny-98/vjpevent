@@ -1,9 +1,14 @@
 {
-  "name": "api",
-  "version": "0.0.0",
-  "private": true,
+  "name": "vjpevent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,5 +20,16 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "nodemailer": "4.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danny-98/vjpevent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danny-98/vjpevent/issues"
+  },
+  "homepage": "https://github.com/Danny-98/vjpevent#readme"
 }
