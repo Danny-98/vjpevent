@@ -2,14 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "src": "./bin/www",
-      "use": "@now/node"
+      "src": "./bin/www.js"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "./bin/www"
+      "dest": "./bin/www.js"
     }
   ]
 }
